@@ -1,0 +1,115 @@
+{
+  "skills": [
+    {
+      "name": "agent-browser",
+      "author": "Vercel Labs",
+      "description": "Headless browser automation CLI for AI agents",
+      "version": "v0.8.5",
+      "date": "Jan 29, 2026",
+      "repo": "https://github.com/vercel-labs/agent-browser",
+      "commands": {
+        "add": "npx skills add vercel-labs/agent-browser",
+        "dependencies": {
+          "check": "agent-browser --version",
+          "requires": [
+            "npm install -g agent-browser",
+            "agent-browser install --with-deps"
+          ],
+          "update": "npm update -g agent-browser"
+        }
+      },
+      "group": "tools"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "author": "NextLevelBuilder",
+      "description": "Professional UI/UX design and frontend component generation skill",
+      "version": "v2.2.1",
+      "repo": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "commands": {
+        "add": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max"
+      },
+      "group": "frontend-design"
+    },
+    {
+      "name": "nuxt",
+      "author": "Anthony Fu",
+      "description": "Nuxt framework skill for the Skills framework",
+      "repo": "https://github.com/antfu/skills",
+      "commands": {
+        "add": "npx skills add antfu/skills --skill nuxt"
+      },
+      "group": "vue"
+    },
+    {
+      "name": "pinia",
+      "author": "Anthony Fu",
+      "description": "Pinia state management skill for the Skills framework",
+      "repo": "https://github.com/antfu/skills",
+      "commands": {
+        "add": "npx skills add antfu/skills --skill pinia"
+      },
+      "group": "vue"
+    },
+    {
+      "name": "tsdown",
+      "author": "Anthony Fu",
+      "description": "tsdown TypeScript bundler skill for the Skills framework",
+      "repo": "https://github.com/antfu/skills",
+      "commands": {
+        "add": "npx skills add antfu/skills --skill tsdown"
+      },
+      "group": "typescript"
+    },
+    {
+      "name": "vite",
+      "author": "Anthony Fu",
+      "description": "Vite build tool skill for the Skills framework",
+      "repo": "https://github.com/antfu/skills",
+      "commands": {
+        "add": "npx skills add antfu/skills --skill vite"
+      },
+      "group": "vite"
+    },
+    {
+      "name": "vue-best-practices",
+      "author": "Anthony Fu",
+      "description": "Vue best practices skill for the Skills framework",
+      "repo": "https://github.com/antfu/skills",
+      "commands": {
+        "add": "npx skills add antfu/skills --skill vue-best-practices"
+      },
+      "group": "vue"
+    },
+    {
+      "name": "vue",
+      "author": "Anthony Fu",
+      "description": "Vue framework skill for the Skills framework",
+      "repo": "https://github.com/antfu/skills",
+      "commands": {
+        "add": "npx skills add antfu/skills --skill vue"
+      },
+      "group": "vue"
+    },
+    {
+      "name": "vueuse-functions",
+      "author": "Anthony Fu",
+      "description": "VueUse functions skill for the Skills framework",
+      "repo": "https://github.com/antfu/skills",
+      "commands": {
+        "add": "npx skills add antfu/skills --skill vueuse-functions"
+      },
+      "group": "vue"
+    },
+    {
+      "name": "superpowers",
+      "author": "Superpowers Marketplace",
+      "description": "Plugin installation workflow for project-scoped superpowers from the marketplace",
+      "repo": "https://github.com/obra/superpowers",
+      "commands": {
+        "add": "claude plugin install superpowers@superpowers-marketplace --scope project"
+      },
+      "group": "workflow"
+    }
+  ]
+}

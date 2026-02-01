@@ -1,0 +1,19 @@
+Bệnh nhân {gioi_tinh}, {tuoi} tuổi lý do vào viện: {ly_do_vao_vien}
+
+1. Quá trình bệnh lý:
+{qua_trinh_benh_ly}
+
+2. Tiền sử bệnh:
+- Bản thân: {tien_su_ban_than}
+- Gia đình: {tien_su_gia_dinh}
+
+3. Khám xét:
+1. Toàn thân: {toan_than}
+2. Các bộ phận:
+{cac_bo_phan}
+
+4. Cận lâm sàng: {can_lam_sang}
+
+5. Chẩn đoán: {chan_doan}
+
+6. Định hướng: {dinh_huong}

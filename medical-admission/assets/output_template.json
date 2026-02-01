@@ -1,0 +1,49 @@
+{
+  "medical_admission": {
+    "metadata": {
+      "hospital": "Bạch Mai",
+      "form_type": "Tờ điều trị/Phiếu khám vào viện",
+      "date": "",
+      "time": ""
+    },
+    "administrative": {
+      "gioi_tinh": "",
+      "tuoi": null,
+      "ly_do_vao_vien": "",
+      "cach_vao_vien": ""
+    },
+    "consciousness": {
+      "tinh_lo_mo": "",
+      "tiep_xuc": "",
+      "glasgow_E": null,
+      "glasgow_V": null,
+      "glasgow_M": null,
+      "glasgow_total": null
+    },
+    "physical_exam": {
+      "da_niem_mac": {"status": "", "abnormal_ref": ""},
+      "sot": {"status": "", "abnormal_ref": ""},
+      "can_nang": null,
+      "chieu_cao": null,
+      "bmi": null,
+      "phan_loai_the_trang": "",
+      "phu": {"status": "", "abnormal_ref": ""},
+      "xuat_huyet": {"status": "", "abnormal_ref": ""},
+      "tuyen_giap": {"status": "", "abnormal_ref": ""},
+      "hach_ngoai_vi": {"status": "", "abnormal_ref": ""},
+      "tim": {"status": "", "abnormal_ref": ""},
+      "phoi": {"status": "", "abnormal_ref": ""},
+      "bung": {"status": "", "abnormal_ref": ""},
+      "dai_tien": {"status": "", "abnormal_ref": ""},
+      "tieu_tien": {"status": "", "abnormal_ref": ""}
+    },
+    "vital_signs": {
+      "huyet_ap": "",
+      "huyet_ap_tam_thu": null,
+      "huyet_ap_tam_truong": null,
+      "mach": null,
+      "nhip_tho": null,
+      "nhiet_do": null
+    }
+  }
+}
