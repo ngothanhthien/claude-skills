@@ -8,7 +8,7 @@
       "date": "Jan 29, 2026",
       "repo": "https://github.com/vercel-labs/agent-browser",
       "commands": {
-        "add": "npx skills add vercel-labs/agent-browser",
+        "add": "npx skills add vercel-labs/agent-browser -a claude-code -y",
         "dependencies": {
           "check": "agent-browser --version",
           "requires": [
@@ -27,7 +27,7 @@
       "version": "v2.2.1",
       "repo": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
       "commands": {
-        "add": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max"
+        "add": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max -a claude-code -y"
       },
       "group": "frontend-design"
     },
@@ -37,7 +37,7 @@
       "description": "Nuxt framework skill for the Skills framework",
       "repo": "https://github.com/antfu/skills",
       "commands": {
-        "add": "npx skills add antfu/skills --skill nuxt"
+        "add": "npx skills add antfu/skills --skill nuxt -a claude-code -y"
       },
       "group": "vue"
     },
@@ -47,7 +47,7 @@
       "description": "Pinia state management skill for the Skills framework",
       "repo": "https://github.com/antfu/skills",
       "commands": {
-        "add": "npx skills add antfu/skills --skill pinia"
+        "add": "npx skills add antfu/skills --skill pinia -a claude-code -y"
       },
       "group": "vue"
     },
@@ -57,7 +57,7 @@
       "description": "tsdown TypeScript bundler skill for the Skills framework",
       "repo": "https://github.com/antfu/skills",
       "commands": {
-        "add": "npx skills add antfu/skills --skill tsdown"
+        "add": "npx skills add antfu/skills --skill tsdown -a claude-code -y"
       },
       "group": "typescript"
     },
@@ -67,7 +67,7 @@
       "description": "Vite build tool skill for the Skills framework",
       "repo": "https://github.com/antfu/skills",
       "commands": {
-        "add": "npx skills add antfu/skills --skill vite"
+        "add": "npx skills add antfu/skills --skill vite -a claude-code -y"
       },
       "group": "vite"
     },
@@ -77,7 +77,7 @@
       "description": "Vue best practices skill for the Skills framework",
       "repo": "https://github.com/antfu/skills",
       "commands": {
-        "add": "npx skills add antfu/skills --skill vue-best-practices"
+        "add": "npx skills add antfu/skills --skill vue-best-practices -a claude-code -y"
       },
       "group": "vue"
     },
@@ -87,7 +87,7 @@
       "description": "Vue framework skill for the Skills framework",
       "repo": "https://github.com/antfu/skills",
       "commands": {
-        "add": "npx skills add antfu/skills --skill vue"
+        "add": "npx skills add antfu/skills --skill vue -a claude-code -y"
       },
       "group": "vue"
     },
@@ -97,7 +97,7 @@
       "description": "VueUse functions skill for the Skills framework",
       "repo": "https://github.com/antfu/skills",
       "commands": {
-        "add": "npx skills add antfu/skills --skill vueuse-functions"
+        "add": "npx skills add antfu/skills --skill vueuse-functions -a claude-code -y"
       },
       "group": "vue"
     },
@@ -110,6 +110,38 @@
         "add": "claude plugin install superpowers@superpowers-marketplace --scope project"
       },
       "group": "workflow"
+    },
+    {
+      "name": "supabase-agent-skills",
+      "author": "Supabase",
+      "description": "Postgres performance optimization guidelines from Supabase - 8 categories covering query performance, connection management, schema design, concurrency & locking, security & RLS, data access patterns, monitoring & diagnostics, and advanced features",
+      "version": "latest",
+      "repo": "https://github.com/supabase/agent-skills",
+      "commands": {
+        "add": "npx skills add supabase/agent-skills -a claude-code -y"
+      },
+      "group": "database"
+    },
+    {
+      "name": "nuxt-ui",
+      "author": "onmax",
+      "description": "Nuxt UI v4 components, theming, forms, overlays, composables - Use when building styled UI with @nuxt/ui v4 components (Button, Modal, Form, Table, etc.) with Tailwind Variants theming",
+      "version": "v4.3.0",
+      "repo": "https://github.com/onmax/nuxt-skills",
+      "commands": {
+        "add": "npx skills add onmax/nuxt-skills --skill nuxt-ui -a claude-code -y"
+      },
+      "group": "vue"
+    },
+    {
+      "name": "tailwind-v4",
+      "author": "existential-birds",
+      "description": "Tailwind CSS v4 with CSS-first configuration and design tokens. Use when setting up Tailwind v4, defining theme variables, using OKLCH colors, or configuring dark mode. Triggers on @theme, @tailwindcss/vite, oklch, CSS variables, --color-, tailwind v4.",
+      "repo": "https://github.com/existential-birds/beagle",
+      "commands": {
+        "add": "npx skills add existential-birds/beagle --skill tailwind-v4 -a claude-code -y"
+      },
+      "group": "frontend-design"
     }
   ]
 }

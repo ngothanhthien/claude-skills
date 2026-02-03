@@ -1,0 +1,40 @@
+{
+  "locals": [
+    {
+      "name": "agents",
+      "type": "agent",
+      "path": "/home/cnnt/self/claude-skills/agents",
+      "description": "Base Local Agents"
+    },
+    {
+      "name": "conventional-commits",
+      "type": "skill",
+      "path": "/home/cnnt/self/claude-skills/conventional-commits",
+      "description": "Conventional Commits skill"
+    },
+    {
+      "name": "extract-plan-to-bead",
+      "type": "skill",
+      "path": "/home/cnnt/self/claude-skills/extract-plan-to-bead",
+      "description": "Extract planning and convert to beads format"
+    },
+    {
+      "name": "implementation-planner",
+      "type": "skill",
+      "path": "/home/cnnt/self/claude-skills/implementation-planner",
+      "description": "Implementation planning assistance"
+    },
+    {
+      "name": "orchestrator",
+      "type": "skill",
+      "path": "/home/cnnt/self/claude-skills/orchestrator",
+      "description": "Orchestration and coordination agent"
+    },
+    {
+      "name": "worker",
+      "type": "skill",
+      "path": "/home/cnnt/self/claude-skills/worker",
+      "description": "Worker agent for task execution"
+    }
+  ]
+}

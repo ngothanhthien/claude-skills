@@ -1,0 +1,106 @@
+{
+  "mcpServers": {
+    "shadcn": {
+      "add": "claude mcp add --transport stdio --scope project shadcn -- npx shadcn-vue@latest mcp",
+      "meta": {
+        "description": "AI-driven shadcn/ui and shadcn-vue component registry integration - browse, search, and install UI components using natural language",
+        "group": "frontend-design",
+        "url": "https://www.shadcn-vue.com/docs/mcp"
+      }
+    },
+    "mcp-playwright": {
+      "add": "claude mcp add --transport stdio --scope project playwright -- npx -y @playwright/mcp@latest",
+      "meta": {
+        "description": "Cross-browser automation for E2E testing, web scraping, screenshots, JavaScript execution - uses accessibility tree for LLM-friendly interaction",
+        "group": "tools",
+        "url": "https://github.com/microsoft/playwright-mcp"
+      }
+    },
+    "sequential-thinking": {
+      "add": "claude mcp add --transport stdio --scope project sequential-thinking -- npx -y @modelcontextprotocol/server-sequential-thinking",
+      "meta": {
+        "description": "Structured thinking and multi-step reasoning tool for complex problem decomposition and systematic analysis",
+        "group": "tools",
+        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking"
+      }
+    },
+    "Context7": {
+      "add": "claude mcp add --transport stdio --scope project Context7 -- npx -y @upstash/context7-mcp",
+      "meta": {
+        "description": "Up-to-date library documentation lookup with version-specific docs and code examples - resolve library IDs and fetch real-time documentation",
+        "group": "web-search",
+        "url": "https://github.com/upstash/context7"
+      }
+    },
+    "mcp-agent-mail": {
+      "add": "claude mcp add --transport http --scope project mcp-agent-mail http://127.0.0.1:8765/mcp/ --header \"Authorization: Bearer faa576969b7c4d79d511cc030df64235032bddeea73d7aa43488673d6001e9c4\"",
+      "meta": {
+        "description": "Custom local mail agent server for email operations",
+        "group": "communication"
+      }
+    },
+    "morph-mcp": {
+      "add": "claude mcp add morph-mcp --scope project -e MORPH_API_KEY=sk-5DqDlKia-nM6wGWyng2kv9PXAzdB8qsXgFENW4mOSyS3te98 -e ENABLED_TOOLS=edit_file,warpgrep_codebase_search",
+      "meta": {
+        "description": "WarpGrep codebase search - 20x faster than grep with RL-trained context retrieval, returns file paths and code snippets",
+        "group": "code-search",
+        "url": "https://www.morphllm.com/mcp"
+      }
+    },
+    "zai-mcp-server": {
+      "add": "claude mcp add --transport stdio --scope project zai-mcp-server -- npx -y @z_ai/mcp-server --env Z_AI_API_KEY=a03f134de60947f9b2dd6989918ddf5d.jzdxocwGVqBN5pf5 --env Z_AI_MODE=ZAI",
+      "meta": {
+        "description": "Zhipu AI GLM vision understanding - 4.7V capabilities for image analysis through MCP protocol",
+        "group": "tools",
+        "url": "https://docs.bigmodel.cn/cn/coding-plan/mcp/vision-mcp-server"
+      }
+    },
+    "web-search-prime": {
+      "add": "claude mcp add --transport http --scope project web-search-prime https://api.z.ai/api/mcp/web_search_prime/mcp --header \"Authorization: Bearer a03f134de60947f9b2dd6989918ddf5d.jzdxocwGVqBN5pf5\"",
+      "meta": {
+        "description": "Web search with recency filters, location-based results, domain whitelisting, and customizable content size (400-2500 words summaries)",
+        "group": "web-search",
+        "url": "https://docs.z.ai/devpack/mcp/search-mcp-server"
+      }
+    },
+    "web-reader": {
+      "add": "claude mcp add --transport http --scope project web-reader https://api.z.ai/api/mcp/web_reader/mcp --header \"Authorization: Bearer a03f134de60947f9b2dd6989918ddf5d.jzdxocwGVqBN5pf5\"",
+      "meta": {
+        "description": "Fetch and convert URLs to LLM-friendly markdown with image retention, link summaries, and cache control options",
+        "group": "web-search",
+        "url": "https://docs.z.ai/devpack/mcp/reader-mcp-server"
+      }
+    },
+    "zread": {
+      "add": "claude mcp add --transport http --scope project zread https://api.z.ai/api/mcp/zread/mcp --header \"Authorization: Bearer a03f134de60947f9b2dd6989918ddf5d.jzdxocwGVqBN5pf5\"",
+      "meta": {
+        "description": "Convert GitHub projects into AI-readable context - code understanding and repository analysis using GLM-4.7",
+        "group": "web-search",
+        "url": "https://docs.z.ai/devpack/mcp/zread-mcp-server"
+      }
+    },
+    "nuxt-ui": {
+      "add": "claude mcp add --transport http --scope project nuxt-ui https://ui.nuxt.com/mcp",
+      "meta": {
+        "description": "Nuxt UI component library - browse components, composables, examples, templates, and documentation with AI assistant integration",
+        "group": "vue",
+        "url": "https://ui.nuxt.com/docs/getting-started/ai/mcp"
+      }
+    },
+    "gitlab-knowledge-graph": {
+      "add": "claude mcp add --transport sse --scope project gkg http://localhost:27495/mcp/sse",
+      "meta": {
+        "description": "GitLab Knowledge Graph - search and analyze codebases via LLMs using semantic code understanding and graph-based relationships",
+        "group": "code-search",
+        "url": "https://gitlab-org.gitlab.io/rust/knowledge-graph/mcp/endpoints/"
+      }
+    },
+    "supabase": {
+      "add": "claude mcp add --transport http --scope project supabase http://localhost:8000/mcp",
+      "meta": {
+        "description": "Supabase MCP server for database operations and management",
+        "group": "database"
+      }
+    }
+  }
+}

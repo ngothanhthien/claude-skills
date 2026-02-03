@@ -1,0 +1,23 @@
+{
+  "name": "external-skills-installer",
+  "version": "1.0.0",
+  "description": "Interactive CLI for installing external Claude skills",
+  "type": "module",
+  "bin": {
+    "skills-install": "./install.js"
+  },
+  "scripts": {
+    "install": "node install.js"
+  },
+  "keywords": [
+    "claude",
+    "skills",
+    "cli",
+    "installer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
